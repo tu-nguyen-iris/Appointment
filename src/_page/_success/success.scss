@@ -1,0 +1,13 @@
+.success {
+    .card_head {
+        position: relative;
+        .card1 {
+            z-index: 1;
+        }
+        .card2 {
+            position: absolute;
+            top: 1px;
+            left: 20px;
+        }
+    }
+}

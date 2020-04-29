@@ -1,0 +1,25 @@
+.price {
+    h1 {
+        padding: 1em 0;
+    }
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 9em;
+    .item_after {
+        border-top: 1px solid whitesmoke;
+
+        display: flex;
+    }
+    .item_left {
+        padding: 2em;
+    }
+    .item_right {
+        margin-left: auto;
+        padding: 2em;
+        p {
+            text-decoration: line-through;
+        }
+    }
+}

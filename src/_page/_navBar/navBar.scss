@@ -1,0 +1,94 @@
+@import "./../../sass/main.scss";
+.topNavBar {
+    .ipadScreen {
+        display: none;
+    }
+    border-bottom: solid #dad9d9 1px;
+    a {
+        color: #868686;
+        font-size: small;
+    }
+    i {
+        font-size: large;
+    }
+    @include mediaQuery("ipad") {
+        .navbar {
+            display: none;
+        }
+        .ipadScreen {
+            display: inline;
+            // margin-top: 1em;
+            form {
+                position: relative;
+                i {
+                    position: absolute;
+                    right: 1.3em;
+                    top: 0.6em;
+                }
+                // margin-bottom: 0.1em;
+            }
+            ul {
+                display: flex;
+                li {
+                    padding-right: 1%;
+                    list-style: none;
+                    a {
+                        margin-right: 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+.midleNavBar {
+    .nav-link {
+        &:hover {
+            color: #18afd3;
+        }
+    }
+    img {
+        width: 50%;
+    }
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+    ul {
+        li {
+            a {
+                font-weight: 500;
+                color: #4c4c4c;
+            }
+        }
+    }
+}
+.bottomNavBar {
+    background-color: #f5f5f5;
+    .Appointment {
+        background-color: #18afd3;
+        color: white !important;
+        i {
+            color: white !important;
+        }
+
+        text-decoration: none;
+    }
+    i {
+        float: left;
+        font-size: 2.4em;
+        color: #18afd3;
+        margin: 0.4em;
+    }
+    .text {
+        margin-left: 4em;
+        margin-top: 0.8em;
+
+        p {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin: 0;
+        }
+        span {
+            font-size: 0.7em;
+        }
+    }
+}

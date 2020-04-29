@@ -1,0 +1,40 @@
+.page-footer {
+    a,
+    p {
+        font-size: 0.9em;
+        color: #18afda;
+    }
+    h4 {
+        margin-bottom: 1em;
+        color: white;
+    }
+    span {
+        font-size: 0.7em;
+        color: #ffffff;
+    }
+    .Social {
+        ul {
+            display: flex;
+            li {
+                margin-right: auto;
+                padding: 0.1em;
+                background-color: #38586b;
+                i {
+                    padding: 1.2em;
+                    color: white;
+                }
+            }
+        }
+        span {
+            margin-top: 0.5em;
+            float: right;
+        }
+    }
+    .News {
+        ul {
+            li {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

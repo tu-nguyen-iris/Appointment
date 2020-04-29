@@ -1,0 +1,23 @@
+.ourTeam {
+    padding: 60px 0px;
+    background-color: #f57e57;
+    h1 {
+        color: #4c4c4c;
+        padding: 0.7em;
+    }
+    .ourTeam_item {
+        .imagine {
+            img {
+                border-radius: 100px;
+                justify-content: center;
+                margin: auto;
+            }
+            p {
+                font-weight: 600;
+                text-align: center;
+                // margin-left: 2em;
+                margin-top: 2em;
+            }
+        }
+    }
+}

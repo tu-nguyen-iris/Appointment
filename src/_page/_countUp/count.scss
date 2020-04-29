@@ -1,0 +1,21 @@
+.number {
+    padding: 50px 0;
+    background-color: #4c6575;
+    color: white;
+}
+.number__content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.number__items p:first-child {
+    // color: #4e2a84;
+    font-weight: 700;
+    font-size: 3em;
+}
+.number__items p:nth-child(2) {
+    opacity: 0.6;
+    font-weight: 700;
+}
