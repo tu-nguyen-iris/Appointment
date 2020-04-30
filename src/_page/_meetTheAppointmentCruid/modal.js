@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import * as action from "./../../_redux/_action/action"
-
+import "./Cruid.scss"
 class Modal extends Component {
     constructor(props) {
         super(props)
@@ -17,7 +17,7 @@ class Modal extends Component {
         }
     }
     UNSAFE_componentWillReceiveProps(nextProps) {
-        console.log(nextProps)
+        // console.log(nextProps)
         if (nextProps && nextProps.edit) {
             this.setState({
                 id: nextProps.edit.id,
@@ -56,31 +56,31 @@ class Modal extends Component {
                                     <form onSubmit={this.handleOnSubmit}>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputEmail1">Name</label>
-                                            <input onChange={this.handleOnChange} name="name" value={this.state.name} type="text" className="form-control" />
+                                            <input onChange={this.handleOnChange} name="name" value={this.state.name} type="text" className="form-control1" />
 
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputPassword1">Email</label>
-                                            <input onChange={this.handleOnChange} name="email" type="email" value={this.state.email} className="form-control" />
+                                            <input onChange={this.handleOnChange} name="email" type="email" value={this.state.email} className="form-control1" />
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputEmail1">Address</label>
-                                            <input onChange={this.handleOnChange} name="address" type="text" value={this.state.address} className="form-control" />
+                                            <input onChange={this.handleOnChange} name="address" type="text" value={this.state.address} className="form-control1" />
 
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputEmail1">Phone Number</label>
-                                            <input onChange={this.handleOnChange} name="phoneNumber" type="number" value={this.state.phoneNumber} className="form-control" />
+                                            <input onChange={this.handleOnChange} name="phoneNumber" type="number" value={this.state.phoneNumber} className="form-control1" />
 
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputEmail1">Date</label>
-                                            <input onChange={this.handleOnChange} name="date" type="date" value={this.state.date} className="form-control" />
+                                            <input onChange={this.handleOnChange} name="date" type="date" value={this.state.date} className="form-control1" />
 
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleInputEmail1">Time</label>
-                                            <input name="time" type="time" value={this.state.time} className="form-control" />
+                                            <input name="time" type="time" value={this.state.time} className="form-control1" />
 
                                         </div>
                                         <div class="form-group">

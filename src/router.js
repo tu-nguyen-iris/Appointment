@@ -1,7 +1,6 @@
 import Home from "./_page/_home/index"
 import Meet from "./_page/_MeetTheAppontment"
 import Cruid from "./_page/_meetTheAppointmentCruid"
-
 const clientRouter = [
     {
         path: "/",
@@ -19,6 +18,7 @@ const clientRouter = [
         exact: false,
         component: Cruid
     }
+    
 
 ]
 

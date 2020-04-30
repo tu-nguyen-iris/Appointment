@@ -52,11 +52,12 @@
     .dropdown:hover > .dropdown-menu {
         display: block;
     }
+   
     ul {
         li {
             a {
                 font-weight: 500;
-                color: #4c4c4c;
+                color: #4c4c4c !important;
             }
         }
     }

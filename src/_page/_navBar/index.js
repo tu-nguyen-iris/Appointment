@@ -85,7 +85,7 @@ export default function NavBar() {
                                 <NavLink className="nav-link" exact activeClassName="active" to="/">HOME</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle" to="/about" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</NavLink>
+                                <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
                                 <div className="dropdown-menu" aria-labelledby="dropdownId">
                                     <NavLink to="/meet-the-appointment" className="dropdown-item">Meet The Appointment</NavLink >
                                     <NavLink className="dropdown-item" to="/meet-the-appointment-cruid">Meet The Appointment CRUID</NavLink>

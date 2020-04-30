@@ -46,13 +46,10 @@ class FormModal extends Component {
                                             date: "",
                                             time: "",
                                             appointmentAddress: "11 Wall St, New York, NY 10005,United States"
-                                            // , createAt: {
-                                            //     type: Date,
-                                            //     default: Date.now
-                                            // }
+                                           
                                         }
                                     }
-                                    // validationSchema={validation}
+                                    validationSchema={validation}
 
                                     onSubmit={this.handleSubmit}
 
@@ -149,9 +146,7 @@ class FormModal extends Component {
 
                                         </Form>
                                     }}
-
                                 />
-
                             </div>
                         </div>
                     </div>
